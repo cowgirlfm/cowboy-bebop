@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://cdn.glitch.global/2f999962-cad9-400e-baea-6d6b5fadaf83/002450756ba1ed763e8f5dba9800681d.gif?v=1709054194493) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  
+}
+
+::selection {
+  background-color: #8A00F5;
+  color: #8A00F5;
+}
+
+h1 {
+  font-size: 2.2em;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+#contenedor {
+  margin: auto 1em;
+  text-align: center;
+}
+
+#tituloPagina {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+#foto {
+ height: 300px;
+  border: #8A00F5 solid 5px;
+  margin-top: 15px;
+}
+
+.tituloPrediccion {
+  font-size: 2em;
+}
+
+.prediccion {
+  font-size: 1.5em;
+}
+
+.prediccion::first-letter {
+  text-transform: uppercase;
+}
+
+#boton {
+  font-size: 0.9em;
+  background-color: #3d00fdb5;
+  color: white;
+  margin-bottom: 2em;
+}
